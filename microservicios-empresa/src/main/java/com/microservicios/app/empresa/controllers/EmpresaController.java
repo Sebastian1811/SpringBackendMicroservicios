@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.microservicios.app.empresa.services.EmpresaService;
-import com.microservicios.commons.transacciones.models.entity.Empresa;
+//import com.microservicios.commons.transacciones.models.entity.Empresa;
 
-
+import com.microservicios.app.empresa.entity.Empresa;
 
 @RestController
 public class EmpresaController {

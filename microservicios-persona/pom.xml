@@ -26,11 +26,7 @@
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		
-		<dependency>
-			<groupId>com.microservicios.app.transacciones</groupId>
-			<artifactId>microservicios-transacciones</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		
 		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

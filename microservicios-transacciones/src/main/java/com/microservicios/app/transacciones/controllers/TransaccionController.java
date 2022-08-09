@@ -14,7 +14,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.microservicios.app.transacciones.services.TransaccionService;
-import com.microservicios.commons.transacciones.models.entity.Transaccion;
+//import com.microservicios.commons.transacciones.models.entity.Transaccion;
+import com.microservicios.app.transacciones.entity.Transaccion;
 
 @RestController
 public class TransaccionController {
