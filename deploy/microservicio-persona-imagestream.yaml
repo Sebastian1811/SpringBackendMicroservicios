@@ -12,10 +12,10 @@ spec:
     - annotations: null
       from:
         kind: DockerImage
-        name: microservicio-persona
+        name: sebas1411/microservicio-persona:v2
       generation: null
       importPolicy: {}
-      name: latest
+      name: v2
       referencePolicy:
         type: ""
 status:

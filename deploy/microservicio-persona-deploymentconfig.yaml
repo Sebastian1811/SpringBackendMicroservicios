@@ -42,7 +42,7 @@ spec:
           - microservicio-persona
         from:
           kind: ImageStreamTag
-          name: microservicio-persona:latest
+          name: microservicio-persona:v2
       type: ImageChange
 status:
   availableReplicas: 0

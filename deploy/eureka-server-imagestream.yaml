@@ -12,10 +12,10 @@ spec:
     - annotations: null
       from:
         kind: DockerImage
-        name: eureka-server
+        name: sebas1411/eureka-server:v2
       generation: null
       importPolicy: {}
-      name: latest
+      name: v2
       referencePolicy:
         type: ""
 status:
