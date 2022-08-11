@@ -24,7 +24,7 @@ spec:
             - name: spring.datasource.password
               value: Passw0rd2020
             - name: spring.datasource.url
-              value: jdbc:postgresql://172.21.186.202:5432/sampledb
+              value: jdbc:postgresql://172.21.110.11:5432/sampledb
             - name: spring.datasource.username
               value: postgresadmin
           image: ' '

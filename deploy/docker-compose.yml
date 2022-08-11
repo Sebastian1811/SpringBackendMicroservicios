@@ -24,7 +24,7 @@ services:
       - zuul-server
     environment:
       eureka.client.serviceUrl.defaultZone: http://eureka-server:8761/eureka
-      spring.datasource.url: jdbc:postgresql://172.21.186.202:5432/sampledb
+      spring.datasource.url: jdbc:postgresql://172.21.110.11:5432/sampledb
       spring.datasource.username: postgresadmin
       spring.datasource.password: Passw0rd2020 
 
@@ -37,7 +37,7 @@ services:
       - zuul-server
     environment:
       eureka.client.serviceUrl.defaultZone: http://eureka-server:8761/eureka
-      spring.datasource.url: jdbc:postgresql://172.21.186.202:5432/sampledb
+      spring.datasource.url: jdbc:postgresql://172.21.110.11:5432/sampledb
       spring.datasource.username: postgresadmin
       spring.datasource.password: Passw0rd2020
 
@@ -50,6 +50,6 @@ services:
       - zuul-server
     environment:
       eureka.client.serviceUrl.defaultZone: http://eureka-server:8761/eureka
-      spring.datasource.url: jdbc:postgresql://172.21.186.202:5432/sampledb
+      spring.datasource.url: jdbc:postgresql://172.21.110.11:5432/sampledb
       spring.datasource.username: postgresadmin
       spring.datasource.password: Passw0rd2020
