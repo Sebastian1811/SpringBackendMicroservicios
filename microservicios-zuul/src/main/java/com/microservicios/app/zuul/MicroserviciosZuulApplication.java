@@ -20,9 +20,9 @@ public class MicroserviciosZuulApplication {
 	public WebMvcConfigurer corsConfigurer() {
     	return new WebMvcConfigurer() {
         	public void addCorsMappings(CorsRegistry registry) {
-           		registry.addMapping("/path-1/**")
+           		registry.addMapping("/**")
                     .allowedOrigins("*")
-                    .allowedMethods("GET", "POST");
+                    .allowedMethods("GET", "POST","OPTIONS").allowCredentials(false);
         }};
     
 }}

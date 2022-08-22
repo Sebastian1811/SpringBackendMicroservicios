@@ -15,4 +15,6 @@ public class MicroserviciosTransaccionesApplication {
 		SpringApplication.run(MicroserviciosTransaccionesApplication.class, args);
 	}
 
+    
+
 }

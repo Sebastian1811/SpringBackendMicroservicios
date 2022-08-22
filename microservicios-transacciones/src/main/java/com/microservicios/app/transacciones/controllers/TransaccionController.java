@@ -43,7 +43,7 @@ public class TransaccionController {
 	
 	
 	// Se envia la respuesta que se obtiene desde el body de entrada
-	@CrossOrigin(origins = "http://localhost:3000")
+	//@CrossOrigin(origins = "http://localhost:3000")
 	@PostMapping
 	public ResponseEntity<?> crear(@RequestBody Transaccion transaccion){
 		Transaccion transaccionDb = service.save(transaccion);
